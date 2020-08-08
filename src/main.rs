@@ -10,6 +10,7 @@ use cgmath::{Matrix4, SquareMatrix, InnerSpace};
 use std::mem;
 
 mod texture;
+mod simulation;
 
 fn main() {
     let event_loop = EventLoop::new();
